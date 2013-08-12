@@ -38,6 +38,7 @@ class AppendEntriesTests(unittest.TestCase, commandtests.CommandTestMixin):
     }
 
 
+
 class RequestVotesTests(unittest.TestCase, commandtests.CommandTestMixin):
     """RequestVotes can serialize and deserialize.
 
