@@ -31,7 +31,7 @@ setup(name='ctfclient',
 
       packages=["txraft", "txraft.test"],
       test_suite="txraft.test",
-      setup_requires=['tox'],
+      #setup_requires=['tox'],
       cmdclass={'test': Tox},
       zip_safe=True,
 
