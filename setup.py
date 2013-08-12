@@ -20,8 +20,10 @@ class Tox(TestCommand):
 setup(name='ctfclient',
       version=versionString,
       description='Raft consensus algorithm for Twisted',
-      long_description='An implementation of the Raft distributed consensus '
-                       'algorithm, using Twisted.',
+      long_description="An implementation of the Raft distributed consensus "
+                       "algorithm, using Twisted. You can use it to agree on "
+                       "things in a distributed system. A bit like Paxos , "
+                       "except comprehensible.",
       url='https://github.com/lvh/txraft',
 
       author='Laurens Van Houtven',
